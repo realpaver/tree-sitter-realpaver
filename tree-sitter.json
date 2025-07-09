@@ -1,0 +1,39 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "realpaver",
+      "camelcase": "RealPaver",
+      "title": "RealPaver parser based on tree-sitter",
+      "scope": "source.realpaver",
+      "file-types": [
+        "rp"
+      ],
+      "injection-regex": "^realpaver$",
+      "class-name": "TreeSitterRealpaver"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "RealPaver parser based on tree-sitter",
+    "authors": [
+      {
+        "name": "Raphaël Chenouard",
+        "email": "raphael.chenouard@ls2n.fr"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/realpaver/tree-sitter-realpaver"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
