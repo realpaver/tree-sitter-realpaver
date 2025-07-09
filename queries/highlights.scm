@@ -1,7 +1,7 @@
 ; highlights.scm
 
 ; keywords
-["Constants" "Variables" "Constraints" "Functions"] @keyword
+["Constants" "Variables" "Constraints" "Functions"  "Aliases"] @keyword
 
 ; types
 ["real" "integer" "binary"] @type
