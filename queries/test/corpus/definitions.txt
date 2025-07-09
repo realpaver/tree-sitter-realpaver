@@ -1,0 +1,225 @@
+===
+Constants
+===
+Constants
+    g = 9.81,
+    d = [1,2];
+
+---
+(source_file
+    (constant_definition
+        (identifier)
+        (expression
+            (float)))
+    (constant_definition
+        (identifier)
+        (expression
+            (interval_value
+                (integer)
+                (integer)))))
+
+===
+Variables
+===
+Variables
+    x in [0,2.5],
+    y integer in [0,10],
+    z in {1,2,3};
+---
+(source_file
+    (variable_definition
+        (identifier)
+        (domain
+            (interval_value
+                (integer)
+                (float))))
+    (variable_definition
+        (identifier)
+        (type)
+        (domain
+            (interval_value
+                (integer)
+                (integer))))
+    (variable_definition
+        (identifier)
+        (domain
+          (set_value
+            (integer)
+            (integer)
+            (integer)))))
+
+===
+Arith Constraints
+===
+Constraints
+    x+y == z;
+---
+(source_file
+    (arith_constraint
+        (add_expression
+            (ref
+                (identifier))
+            (ref
+                (identifier)))
+        (ref
+            (identifier))))
+
+===
+Conditional Constraints
+===
+Constraints
+    z in [2,10] -> x>=y,
+    z >= 2 -> x-1>=y;
+---
+(source_file
+    (conditional_constraint
+        (ref
+            (identifier))
+        (interval_value
+            (integer)
+            (integer))
+        (arith_constraint
+          (ref
+            (identifier))
+          (ref
+            (identifier))))
+    (conditional_constraint
+        (ref
+            (identifier))
+        (integer)
+        (arith_constraint
+            (sub_expression
+                (ref
+                    (identifier))
+                (integer))
+            (ref
+                (identifier)))))
+
+===
+Table Constraints
+===
+Constraints
+    table({x},{1}),
+    table({x,y},{0,1,1,2});
+---
+(source_file
+    (table_constraint
+        (ref
+            (identifier))
+        (integer))
+    (table_constraint
+        (ref
+            (identifier))
+        (ref
+            (identifier))
+        (integer)
+        (integer)
+        (integer)
+        (integer)))
+
+===
+Piecewise Constraints
+===
+Constraints
+    piecewise(x,{[0,1]: x+y==1}),
+    piecewise(x,{[0,1]: x+y==1, [1,2]: x^2==1});
+---
+(source_file
+    (piecewise_constraint
+        (ref
+            (identifier))
+        (interval_value
+            (integer)
+            (integer))
+        (arith_constraint
+            (add_expression
+                (ref
+                    (identifier))
+                (ref
+                    (identifier)))
+            (integer)))
+    (piecewise_constraint
+        (ref
+            (identifier))
+        (interval_value
+            (integer)
+            (integer))
+        (arith_constraint
+            (add_expression
+                (ref
+                    (identifier))
+                (ref
+                    (identifier)))
+            (integer))
+        (interval_value
+            (integer)
+            (integer))
+        (arith_constraint
+            (exponent_expression
+                (ref
+                    (identifier))
+                (integer))
+            (integer))
+    )
+)
+
+===
+Functions
+===
+Functions
+    dist(x1,y1,x2,y2) = sqrt((x1-x2)^2+(y1-y2)^2);
+
+---
+(source_file
+    (function_definition
+        (identifier)
+        (parameter_list
+            (identifier)
+            (identifier)
+            (identifier)
+            (identifier))
+        (expression
+            (call_expression
+                (add_expression
+                    (exponent_expression
+                        (sub_expression
+                            (ref
+                                (identifier))
+                            (ref
+                                (identifier)))
+                        (integer))
+                    (exponent_expression
+                        (sub_expression
+                            (ref
+                                (identifier))
+                            (ref
+                                (identifier)))
+                        (integer))))))
+)
+
+===
+Objective with variable
+===
+    z = Min x^2;
+---
+(source_file
+    (objective_definition
+        (identifier)
+        (exponent_expression
+            (ref
+                (identifier))
+            (integer)))
+)
+
+===
+Objective without variable
+===
+    MAX pow(y,4);
+---
+(source_file
+    (objective_definition
+        (call_expression
+            (ref
+                (identifier))
+            (integer)))
+)
