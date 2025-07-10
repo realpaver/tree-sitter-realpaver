@@ -17,4 +17,5 @@
 
 ; References
 ;------------
-(identifier) @local.reference
+(ref
+  (identifier) @local.reference)
