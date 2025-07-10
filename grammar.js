@@ -108,8 +108,8 @@ module.exports = grammar({
     //   ),
     objective_definition: ($) =>
       seq(
-        optional(seq(field("name", $.identifier), "=")),
         field("opt_dir", choice("MIN", "MAX", "min", "max", "Min", "Max")),
+        optional(seq(field("name", $.identifier), "=")),
         field("expression", $._expression),
         ";",
       ),

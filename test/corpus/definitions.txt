@@ -48,6 +48,40 @@ Variables
             (integer)
             (integer)))))
 
+
+===
+Aliases
+===
+Aliases
+    x = 3,
+    y = a+2,
+    z = x^y;
+---
+(source_file
+    (alias_definition
+        (identifier)
+        (integer)
+    )
+    (alias_definition
+        (identifier)
+        (add_expression
+            (ref
+                (identifier))
+            (integer)
+        )
+    )
+    (alias_definition
+        (identifier)
+        (exponent_expression
+          (ref
+            (identifier))
+          (ref
+            (identifier))
+        )
+    )
+)
+
+
 ===
 Arith Constraints
 ===
@@ -200,7 +234,7 @@ Functions
 ===
 Objective with variable
 ===
-    z = Min x^2;
+    Min z = x^2;
 ---
 (source_file
     (objective_definition
