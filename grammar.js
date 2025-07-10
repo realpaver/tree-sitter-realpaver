@@ -345,7 +345,7 @@ module.exports = grammar({
             "asinh",
             "atanh",
             "sgn",
-            $.identifier,
+            $.ref,
           ),
         ),
         field("arguments", $._arguments_list),

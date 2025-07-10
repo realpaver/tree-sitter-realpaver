@@ -1399,7 +1399,7 @@
               },
               {
                 "type": "SYMBOL",
-                "name": "identifier"
+                "name": "ref"
               }
             ]
           }

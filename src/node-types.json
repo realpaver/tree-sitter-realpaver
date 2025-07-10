@@ -2174,10 +2174,6 @@
             "named": false
           },
           {
-            "type": "identifier",
-            "named": true
-          },
-          {
             "type": "log",
             "named": false
           },
@@ -2192,6 +2188,10 @@
           {
             "type": "pow",
             "named": false
+          },
+          {
+            "type": "ref",
+            "named": true
           },
           {
             "type": "sgn",
