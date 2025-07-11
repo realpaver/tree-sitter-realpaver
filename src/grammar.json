@@ -869,7 +869,7 @@
         },
         {
           "type": "SYMBOL",
-          "name": "_paren_expression"
+          "name": "paren_expression"
         }
       ]
     },
@@ -1018,7 +1018,7 @@
         }
       ]
     },
-    "_paren_expression": {
+    "paren_expression": {
       "type": "SEQ",
       "members": [
         {

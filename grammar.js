@@ -195,7 +195,7 @@ module.exports = grammar({
         $._set_expression,
         $._comparison_expression,
         $._imply_expression,
-        $._paren_expression,
+        $.paren_expression,
       ),
 
     _comparison_expression: ($) =>
@@ -247,7 +247,7 @@ module.exports = grammar({
         $.exponent_expression,
       ),
 
-    _paren_expression: ($) => seq("(", $._expression, ")"),
+    paren_expression: ($) => seq("(", $._expression, ")"),
 
     unary_arith_expression: ($) =>
       prec(

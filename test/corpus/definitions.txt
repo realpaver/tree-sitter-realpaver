@@ -216,18 +216,24 @@ Functions
             (call_expression
                 (add_expression
                     (exponent_expression
-                        (sub_expression
-                            (ref
-                                (identifier))
-                            (ref
-                                (identifier)))
-                        (integer))
+                        (paren_expression
+                            (sub_expression
+                                (ref
+                                    (identifier))
+                                (ref
+                                    (identifier))
+                            )
+                        )
+                        (integer)
+                    )
                     (exponent_expression
-                        (sub_expression
-                            (ref
-                                (identifier))
-                            (ref
-                                (identifier)))
+                        (paren_expression
+                            (sub_expression
+                                (ref
+                                    (identifier))
+                                (ref
+                                    (identifier))
+                        ))
                         (integer))))))
 )
 
