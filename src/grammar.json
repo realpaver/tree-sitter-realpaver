@@ -156,14 +156,14 @@
           },
           {
             "type": "SYMBOL",
-            "name": "_type_dom"
+            "name": "type_dom"
           },
           {
             "type": "CHOICE",
             "members": [
               {
                 "type": "SYMBOL",
-                "name": "_prec"
+                "name": "prec"
               },
               {
                 "type": "BLANK"
@@ -173,7 +173,7 @@
         ]
       }
     },
-    "_type_dom": {
+    "type_dom": {
       "type": "CHOICE",
       "members": [
         {
@@ -250,7 +250,7 @@
       "type": "SYMBOL",
       "name": "interval_value"
     },
-    "_prec": {
+    "prec": {
       "type": "SEQ",
       "members": [
         {

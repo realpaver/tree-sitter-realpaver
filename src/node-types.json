@@ -5354,6 +5354,32 @@
     }
   },
   {
+    "type": "prec",
+    "named": true,
+    "fields": {
+      "atol": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "expression",
+            "named": true
+          }
+        ]
+      },
+      "rtol": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "expression",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
     "type": "ref",
     "named": true,
     "fields": {
@@ -7299,6 +7325,32 @@
     }
   },
   {
+    "type": "type_dom",
+    "named": true,
+    "fields": {
+      "domain": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "domain",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "unary_arith_expression",
     "named": true,
     "fields": {
@@ -7782,26 +7834,6 @@
     "type": "variable_definition",
     "named": true,
     "fields": {
-      "atol": {
-        "multiple": false,
-        "required": false,
-        "types": [
-          {
-            "type": "expression",
-            "named": true
-          }
-        ]
-      },
-      "domain": {
-        "multiple": false,
-        "required": false,
-        "types": [
-          {
-            "type": "domain",
-            "named": true
-          }
-        ]
-      },
       "name": {
         "multiple": false,
         "required": true,
@@ -7812,50 +7844,16 @@
           }
         ]
       },
-      "rtol": {
-        "multiple": false,
-        "required": false,
-        "types": [
-          {
-            "type": "expression",
-            "named": true
-          }
-        ]
-      },
       "variable": {
         "multiple": true,
         "required": true,
         "types": [
           {
-            "type": "(",
-            "named": false
-          },
-          {
-            "type": ")",
-            "named": false
-          },
-          {
-            "type": ",",
-            "named": false
-          },
-          {
-            "type": "domain",
+            "type": "prec",
             "named": true
           },
           {
-            "type": "expression",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "tol",
-            "named": false
-          },
-          {
-            "type": "type",
+            "type": "type_dom",
             "named": true
           }
         ]
@@ -8057,11 +8055,11 @@
   },
   {
     "type": "integer",
-    "named": true
+    "named": false
   },
   {
     "type": "integer",
-    "named": false
+    "named": true
   },
   {
     "type": "log",

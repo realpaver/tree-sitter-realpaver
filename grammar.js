@@ -54,14 +54,14 @@ module.exports = grammar({
         "variable",
         seq(
           field("name", $.identifier),
-          $._type_dom,
+          $.type_dom,
           // optional($.type),
           // optional(seq("in", field("domain", $.domain))),
-          optional($._prec),
+          optional($.prec),
         ),
       ),
 
-    _type_dom: ($) =>
+    type_dom: ($) =>
       choice(
         seq($.type, "in", field("domain", $.domain)),
         seq("in", field("domain", $.domain)),
@@ -74,7 +74,7 @@ module.exports = grammar({
 
     _interval: ($) => $.interval_value,
 
-    _prec: ($) =>
+    prec: ($) =>
       seq(
         "tol",
         "(",

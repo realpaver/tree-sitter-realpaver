@@ -24,29 +24,45 @@ Variables
 Variables
     x in [0,2.5],
     y integer in [0,10],
-    z in {1,2,3};
+    z in {1,2,3},
+    x1 in [0,1] tol(0,1e-3);
 ---
 (source_file
     (variable_definition
         (identifier)
-        (domain
-            (interval_value
-                (integer)
-                (float))))
+        (type_dom
+            (domain
+                (interval_value
+                    (integer)
+                    (float)))))
     (variable_definition
         (identifier)
-        (type)
-        (domain
-            (interval_value
-                (integer)
-                (integer))))
+        (type_dom
+            (type)
+            (domain
+                (interval_value
+                    (integer)
+                    (integer)))))
     (variable_definition
         (identifier)
-        (domain
-          (set_value
-            (integer)
-            (integer)
-            (integer)))))
+        (type_dom
+            (domain
+            (set_value
+                (integer)
+                (integer)
+                (integer)))))
+    (variable_definition
+        (identifier)
+        (type_dom
+            (domain
+                (interval_value
+                    (integer)
+                    (integer))))
+        (prec
+            (expression
+                (integer))
+            (expression
+                (float)))))
 
 
 ===
@@ -326,10 +342,11 @@ Objective with variable
 (source_file
     (variable_definition
         (identifier)
-        (domain
-            (interval_value
-                (integer)
-                (integer))))
+        (type_dom
+            (domain
+                (interval_value
+                    (integer)
+                    (integer)))))
     (objective_definition
         (identifier)
         (exponent_expression

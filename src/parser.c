@@ -94,11 +94,11 @@ enum ts_symbol_identifiers {
   sym_constant_definition = 72,
   sym__variables_definition = 73,
   sym_variable_definition = 74,
-  sym__type_dom = 75,
+  sym_type_dom = 75,
   sym_domain = 76,
   sym__set = 77,
   sym__interval = 78,
-  sym__prec = 79,
+  sym_prec = 79,
   sym_type = 80,
   sym__aliases_definition = 81,
   sym_alias_definition = 82,
@@ -226,11 +226,11 @@ static const char * const ts_symbol_names[] = {
   [sym_constant_definition] = "constant_definition",
   [sym__variables_definition] = "_variables_definition",
   [sym_variable_definition] = "variable_definition",
-  [sym__type_dom] = "_type_dom",
+  [sym_type_dom] = "type_dom",
   [sym_domain] = "domain",
   [sym__set] = "_set",
   [sym__interval] = "_interval",
-  [sym__prec] = "_prec",
+  [sym_prec] = "prec",
   [sym_type] = "type",
   [sym__aliases_definition] = "_aliases_definition",
   [sym_alias_definition] = "alias_definition",
@@ -358,11 +358,11 @@ static const TSSymbol ts_symbol_map[] = {
   [sym_constant_definition] = sym_constant_definition,
   [sym__variables_definition] = sym__variables_definition,
   [sym_variable_definition] = sym_variable_definition,
-  [sym__type_dom] = sym__type_dom,
+  [sym_type_dom] = sym_type_dom,
   [sym_domain] = sym_domain,
   [sym__set] = sym__set,
   [sym__interval] = sym__interval,
-  [sym__prec] = sym__prec,
+  [sym_prec] = sym_prec,
   [sym_type] = sym_type,
   [sym__aliases_definition] = sym__aliases_definition,
   [sym_alias_definition] = sym_alias_definition,
@@ -715,8 +715,8 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = true,
   },
-  [sym__type_dom] = {
-    .visible = false,
+  [sym_type_dom] = {
+    .visible = true,
     .named = true,
   },
   [sym_domain] = {
@@ -731,8 +731,8 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = false,
     .named = true,
   },
-  [sym__prec] = {
-    .visible = false,
+  [sym_prec] = {
+    .visible = true,
     .named = true,
   },
   [sym_type] = {
@@ -1008,40 +1008,40 @@ static const TSMapSlice ts_field_map_slices[PRODUCTION_ID_COUNT] = {
   [3] = {.index = 2, .length = 6},
   [4] = {.index = 8, .length = 7},
   [5] = {.index = 15, .length = 1},
-  [6] = {.index = 16, .length = 3},
-  [7] = {.index = 19, .length = 8},
-  [8] = {.index = 27, .length = 8},
-  [9] = {.index = 35, .length = 8},
-  [10] = {.index = 43, .length = 2},
-  [11] = {.index = 45, .length = 1},
-  [12] = {.index = 46, .length = 1},
-  [13] = {.index = 47, .length = 6},
-  [14] = {.index = 53, .length = 9},
-  [15] = {.index = 62, .length = 6},
-  [16] = {.index = 68, .length = 7},
-  [17] = {.index = 75, .length = 15},
-  [18] = {.index = 90, .length = 15},
-  [19] = {.index = 105, .length = 15},
-  [20] = {.index = 120, .length = 1},
-  [21] = {.index = 121, .length = 2},
-  [22] = {.index = 123, .length = 1},
-  [23] = {.index = 124, .length = 14},
-  [24] = {.index = 138, .length = 12},
-  [25] = {.index = 150, .length = 9},
-  [26] = {.index = 159, .length = 2},
-  [27] = {.index = 161, .length = 12},
-  [28] = {.index = 173, .length = 14},
-  [29] = {.index = 187, .length = 2},
-  [30] = {.index = 189, .length = 1},
-  [31] = {.index = 190, .length = 2},
-  [32] = {.index = 192, .length = 2},
-  [33] = {.index = 194, .length = 1},
-  [34] = {.index = 195, .length = 3},
-  [35] = {.index = 198, .length = 2},
-  [36] = {.index = 200, .length = 2},
-  [37] = {.index = 202, .length = 6},
-  [38] = {.index = 208, .length = 4},
-  [39] = {.index = 212, .length = 2},
+  [6] = {.index = 16, .length = 2},
+  [7] = {.index = 18, .length = 8},
+  [8] = {.index = 26, .length = 8},
+  [9] = {.index = 34, .length = 8},
+  [10] = {.index = 42, .length = 2},
+  [11] = {.index = 44, .length = 1},
+  [12] = {.index = 45, .length = 1},
+  [13] = {.index = 46, .length = 3},
+  [14] = {.index = 49, .length = 9},
+  [15] = {.index = 58, .length = 6},
+  [16] = {.index = 64, .length = 7},
+  [17] = {.index = 71, .length = 15},
+  [18] = {.index = 86, .length = 15},
+  [19] = {.index = 101, .length = 15},
+  [20] = {.index = 116, .length = 1},
+  [21] = {.index = 117, .length = 2},
+  [22] = {.index = 119, .length = 1},
+  [23] = {.index = 120, .length = 14},
+  [24] = {.index = 134, .length = 12},
+  [25] = {.index = 146, .length = 9},
+  [26] = {.index = 155, .length = 2},
+  [27] = {.index = 157, .length = 12},
+  [28] = {.index = 169, .length = 14},
+  [29] = {.index = 183, .length = 2},
+  [30] = {.index = 185, .length = 1},
+  [31] = {.index = 186, .length = 2},
+  [32] = {.index = 188, .length = 2},
+  [33] = {.index = 190, .length = 1},
+  [34] = {.index = 191, .length = 3},
+  [35] = {.index = 194, .length = 2},
+  [36] = {.index = 196, .length = 2},
+  [37] = {.index = 198, .length = 6},
+  [38] = {.index = 204, .length = 4},
+  [39] = {.index = 208, .length = 2},
 };
 
 static const TSFieldMapEntry ts_field_map_entries[] = {
@@ -1067,10 +1067,9 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
   [15] =
     {field_type, 0},
   [16] =
-    {field_domain, 1, .inherited = true},
     {field_name, 0},
     {field_variable, 1},
-  [19] =
+  [18] =
     {field_arguments, 1},
     {field_cmp, 1, .inherited = true},
     {field_fun_name, 0},
@@ -1079,7 +1078,7 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_operator, 1, .inherited = true},
     {field_right, 1, .inherited = true},
     {field_right_operand, 1, .inherited = true},
-  [27] =
+  [26] =
     {field_cmp, 1, .inherited = true},
     {field_left, 1, .inherited = true},
     {field_left_operand, 1, .inherited = true},
@@ -1088,7 +1087,7 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_operator, 1, .inherited = true},
     {field_right, 1, .inherited = true},
     {field_right_operand, 1, .inherited = true},
-  [35] =
+  [34] =
     {field_cmp, 1, .inherited = true},
     {field_expression, 1},
     {field_left, 1, .inherited = true},
@@ -1097,21 +1096,18 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_opt_dir, 0},
     {field_right, 1, .inherited = true},
     {field_right_operand, 1, .inherited = true},
-  [43] =
+  [42] =
     {field_name, 0},
     {field_value, 2},
-  [45] =
+  [44] =
     {field_domain, 1},
-  [46] =
+  [45] =
     {field_domain, 0},
-  [47] =
-    {field_atol, 2, .inherited = true},
-    {field_domain, 1, .inherited = true},
+  [46] =
     {field_name, 0},
-    {field_rtol, 2, .inherited = true},
     {field_variable, 1},
     {field_variable, 2},
-  [53] =
+  [49] =
     {field_alias, 1},
     {field_cmp, 2, .inherited = true},
     {field_expression, 2},
@@ -1121,14 +1117,14 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_operator, 2, .inherited = true},
     {field_right, 2, .inherited = true},
     {field_right_operand, 2, .inherited = true},
-  [62] =
+  [58] =
     {field_cmp, 1, .inherited = true},
     {field_left, 1, .inherited = true},
     {field_left_operand, 1, .inherited = true},
     {field_operator, 1, .inherited = true},
     {field_right, 1, .inherited = true},
     {field_right_operand, 1, .inherited = true},
-  [68] =
+  [64] =
     {field_cmp, 1, .inherited = true},
     {field_left, 1, .inherited = true},
     {field_left_operand, 1, .inherited = true},
@@ -1136,7 +1132,7 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_right, 1, .inherited = true},
     {field_right_operand, 1, .inherited = true},
     {field_values, 1},
-  [75] =
+  [71] =
     {field_cmp, 0, .inherited = true},
     {field_cmp, 2, .inherited = true},
     {field_left, 0, .inherited = true},
@@ -1152,7 +1148,7 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_right_operand, 0, .inherited = true},
     {field_right_operand, 2},
     {field_right_operand, 2, .inherited = true},
-  [90] =
+  [86] =
     {field_cmp, 0, .inherited = true},
     {field_cmp, 1},
     {field_cmp, 2, .inherited = true},
@@ -1168,7 +1164,7 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_right, 2, .inherited = true},
     {field_right_operand, 0, .inherited = true},
     {field_right_operand, 2, .inherited = true},
-  [105] =
+  [101] =
     {field_cmp, 0, .inherited = true},
     {field_cmp, 2, .inherited = true},
     {field_left, 0},
@@ -1184,14 +1180,14 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_right, 2, .inherited = true},
     {field_right_operand, 0, .inherited = true},
     {field_right_operand, 2, .inherited = true},
-  [120] =
+  [116] =
     {field_parameters, 0},
-  [121] =
+  [117] =
     {field_body, 2},
     {field_guard, 0},
-  [123] =
+  [119] =
     {field_domain, 2},
-  [124] =
+  [120] =
     {field_cmp, 1, .inherited = true},
     {field_cmp, 2, .inherited = true},
     {field_left, 1, .inherited = true},
@@ -1206,7 +1202,7 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_right_operand, 2, .inherited = true},
     {field_values, 1},
     {field_values, 2},
-  [138] =
+  [134] =
     {field_cmp, 0, .inherited = true},
     {field_cmp, 1, .inherited = true},
     {field_left, 0, .inherited = true},
@@ -1219,7 +1215,7 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_right, 1, .inherited = true},
     {field_right_operand, 0, .inherited = true},
     {field_right_operand, 1, .inherited = true},
-  [150] =
+  [146] =
     {field_cmp, 3, .inherited = true},
     {field_expression, 3},
     {field_left, 3, .inherited = true},
@@ -1229,10 +1225,10 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_opt_dir, 0},
     {field_right, 3, .inherited = true},
     {field_right_operand, 3, .inherited = true},
-  [159] =
+  [155] =
     {field_parameters, 0},
     {field_parameters, 1},
-  [161] =
+  [157] =
     {field_cmp, 1, .inherited = true},
     {field_cmp, 2, .inherited = true},
     {field_left, 1, .inherited = true},
@@ -1245,7 +1241,7 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_right, 2, .inherited = true},
     {field_right_operand, 1, .inherited = true},
     {field_right_operand, 2, .inherited = true},
-  [173] =
+  [169] =
     {field_cmp, 1, .inherited = true},
     {field_cmp, 3, .inherited = true},
     {field_left, 1, .inherited = true},
@@ -1260,42 +1256,42 @@ static const TSFieldMapEntry ts_field_map_entries[] = {
     {field_right_operand, 1, .inherited = true},
     {field_right_operand, 3, .inherited = true},
     {field_upper_bound, 3},
-  [187] =
+  [183] =
     {field_expression, 4},
     {field_fun_name, 0},
-  [189] =
+  [185] =
     {field_headers, 1},
-  [190] =
+  [186] =
     {field_expression, 5},
     {field_fun_name, 0},
-  [192] =
+  [188] =
     {field_headers, 1},
     {field_headers, 2},
-  [194] =
+  [190] =
     {field_var, 2},
-  [195] =
+  [191] =
     {field_constraint, 1, .inherited = true},
     {field_interval, 1, .inherited = true},
     {field_pieces, 1},
-  [198] =
+  [194] =
     {field_atol, 4},
     {field_rtol, 2},
-  [200] =
+  [196] =
     {field_constraint, 1, .inherited = true},
     {field_interval, 1, .inherited = true},
-  [202] =
+  [198] =
     {field_constraint, 1, .inherited = true},
     {field_constraint, 2, .inherited = true},
     {field_interval, 1, .inherited = true},
     {field_interval, 2, .inherited = true},
     {field_pieces, 1},
     {field_pieces, 2},
-  [208] =
+  [204] =
     {field_constraint, 0, .inherited = true},
     {field_constraint, 1, .inherited = true},
     {field_interval, 0, .inherited = true},
     {field_interval, 1, .inherited = true},
-  [212] =
+  [208] =
     {field_constraint, 2},
     {field_interval, 0},
 };
@@ -6087,7 +6083,7 @@ static const uint16_t ts_small_parse_table[] = {
     ACTIONS(319), 1,
       anon_sym_in,
     STATE(91), 1,
-      sym__type_dom,
+      sym_type_dom,
     STATE(94), 1,
       sym_type,
     ACTIONS(321), 3,
@@ -6100,7 +6096,7 @@ static const uint16_t ts_small_parse_table[] = {
     ACTIONS(325), 1,
       anon_sym_tol,
     STATE(146), 1,
-      sym__prec,
+      sym_prec,
     ACTIONS(323), 2,
       anon_sym_COMMA,
       anon_sym_SEMI,
@@ -7110,7 +7106,7 @@ static const TSParseActionEntry ts_parse_actions[] = {
   [327] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_type, 1, 0, 5),
   [329] = {.entry = {.count = 2, .reusable = true}}, REDUCE(aux_sym_table_vallist_repeat1, 2, 0, 24), SHIFT_REPEAT(30),
   [332] = {.entry = {.count = 1, .reusable = true}}, REDUCE(aux_sym_table_vallist_repeat1, 2, 0, 24),
-  [334] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym__type_dom, 1, 0, 0),
+  [334] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_type_dom, 1, 0, 0),
   [336] = {.entry = {.count = 1, .reusable = true}}, SHIFT(89),
   [338] = {.entry = {.count = 1, .reusable = true}}, SHIFT(127),
   [340] = {.entry = {.count = 1, .reusable = true}}, SHIFT(176),
@@ -7137,7 +7133,7 @@ static const TSParseActionEntry ts_parse_actions[] = {
   [384] = {.entry = {.count = 2, .reusable = true}}, REDUCE(aux_sym__constraints_definition_repeat1, 2, 0, 0), SHIFT_REPEAT(4),
   [387] = {.entry = {.count = 1, .reusable = true}}, REDUCE(aux_sym__constraints_definition_repeat1, 2, 0, 0),
   [389] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_conditional_constraint, 3, 0, 21),
-  [391] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym__type_dom, 3, 0, 22),
+  [391] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_type_dom, 3, 0, 22),
   [393] = {.entry = {.count = 2, .reusable = true}}, REDUCE(aux_sym_piece_list_repeat1, 2, 0, 38), SHIFT_REPEAT(127),
   [396] = {.entry = {.count = 1, .reusable = true}}, REDUCE(aux_sym_piece_list_repeat1, 2, 0, 38),
   [398] = {.entry = {.count = 1, .reusable = true}}, SHIFT(56),
@@ -7148,7 +7144,7 @@ static const TSParseActionEntry ts_parse_actions[] = {
   [409] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_parameter_list, 2, 0, 26),
   [411] = {.entry = {.count = 1, .reusable = true}}, SHIFT(144),
   [413] = {.entry = {.count = 1, .reusable = true}}, SHIFT(177),
-  [415] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym__type_dom, 2, 0, 11),
+  [415] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_type_dom, 2, 0, 11),
   [417] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_domain, 1, 0, 12),
   [419] = {.entry = {.count = 2, .reusable = true}}, REDUCE(aux_sym_parameter_list_repeat1, 2, 0, 0), SHIFT_REPEAT(179),
   [422] = {.entry = {.count = 1, .reusable = true}}, REDUCE(aux_sym_parameter_list_repeat1, 2, 0, 0),
@@ -7176,7 +7172,7 @@ static const TSParseActionEntry ts_parse_actions[] = {
   [468] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_variable_definition, 3, 0, 13),
   [470] = {.entry = {.count = 1, .reusable = true}}, SHIFT(151),
   [472] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_function_definition, 6, 0, 31),
-  [474] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym__prec, 6, 0, 35),
+  [474] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_prec, 6, 0, 35),
   [476] = {.entry = {.count = 1, .reusable = true}}, REDUCE(aux_sym_piece_list_repeat1, 2, 0, 36),
   [478] = {.entry = {.count = 1, .reusable = true}}, SHIFT(104),
   [480] = {.entry = {.count = 1, .reusable = true}}, SHIFT(125),
