@@ -213,38 +213,40 @@ Constraints
     (piecewise_constraint
         (ref
             (identifier))
-        (interval_value
-            (integer)
-            (integer))
-        (arith_constraint
-            (add_expression
-                (ref
-                    (identifier))
-                (ref
-                    (identifier)))
-            (integer)))
+        (piece_list
+            (interval_value
+                (integer)
+                (integer))
+            (arith_constraint
+                (add_expression
+                    (ref
+                        (identifier))
+                    (ref
+                        (identifier)))
+                (integer))))
     (piecewise_constraint
         (ref
             (identifier))
-        (interval_value
-            (integer)
-            (integer))
-        (arith_constraint
-            (add_expression
-                (ref
-                    (identifier))
-                (ref
-                    (identifier)))
-            (integer))
-        (interval_value
-            (integer)
-            (integer))
-        (arith_constraint
-            (exponent_expression
-                (ref
-                    (identifier))
+        (piece_list
+            (interval_value
+                (integer)
                 (integer))
-            (integer))
+            (arith_constraint
+                (add_expression
+                    (ref
+                        (identifier))
+                    (ref
+                        (identifier)))
+                (integer))
+            (interval_value
+                (integer)
+                (integer))
+            (arith_constraint
+                (exponent_expression
+                    (ref
+                        (identifier))
+                    (integer))
+                (integer)))
     )
 )
 

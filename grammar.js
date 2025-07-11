@@ -162,16 +162,9 @@ module.exports = grammar({
       ),
 
     piecewise_constraint: ($) =>
-      seq(
-        "piecewise",
-        "(",
-        field("var", $.ref),
-        ",",
-        "{",
-        field("pieces", commaSep1($._piece_def)),
-        "}",
-        ")",
-      ),
+      seq("piecewise", "(", field("var", $.ref), ",", $.piece_list, ")"),
+
+    piece_list: ($) => seq("{", field("pieces", commaSep1($._piece_def)), "}"),
 
     _piece_def: ($) =>
       seq(

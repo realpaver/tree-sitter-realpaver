@@ -5248,7 +5248,7 @@
     }
   },
   {
-    "type": "piecewise_constraint",
+    "type": "piece_list",
     "named": true,
     "fields": {
       "constraint": {
@@ -5324,7 +5324,13 @@
             "named": true
           }
         ]
-      },
+      }
+    }
+  },
+  {
+    "type": "piecewise_constraint",
+    "named": true,
+    "fields": {
       "var": {
         "multiple": false,
         "required": true,
@@ -5335,6 +5341,16 @@
           }
         ]
       }
+    },
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "piece_list",
+          "named": true
+        }
+      ]
     }
   },
   {
@@ -8041,11 +8057,11 @@
   },
   {
     "type": "integer",
-    "named": false
+    "named": true
   },
   {
     "type": "integer",
-    "named": true
+    "named": false
   },
   {
     "type": "log",
