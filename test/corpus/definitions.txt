@@ -181,18 +181,26 @@ Constraints
 ---
 (source_file
     (table_constraint
-        (ref
-            (identifier))
-        (integer))
+        (table_varlist
+            (ref
+                (identifier)))
+        (table_vallist
+            (integer)))
     (table_constraint
-        (ref
-            (identifier))
-        (ref
-            (identifier))
-        (integer)
-        (integer)
-        (integer)
-        (integer)))
+        (table_varlist
+            (ref
+                (identifier))
+            (ref
+                (identifier))
+        )
+        (table_vallist
+            (integer)
+            (integer)
+            (integer)
+            (integer)
+        )
+    )
+)
 
 ===
 Piecewise Constraints

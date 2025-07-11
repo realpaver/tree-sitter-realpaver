@@ -146,19 +146,12 @@ module.exports = grammar({
 
     table_constraint: (
       $, // field("table", $._table_expression),
-    ) =>
-      seq(
-        "table",
-        "(",
-        "{",
-        field("headers", commaSep1($.ref)),
-        "}",
-        ",",
-        "{",
-        field("values", commaSep1($._expression)),
-        "}",
-        ")",
-      ),
+    ) => seq("table", "(", $.table_varlist, ",", $.table_vallist, ")"),
+
+    table_varlist: ($) => seq("{", field("headers", commaSep1($.ref)), "}"),
+
+    table_vallist: ($) =>
+      seq("{", field("values", commaSep1($._expression)), "}"),
 
     conditional_constraint: ($) =>
       //field("conditional_expression", $._imply_expression),

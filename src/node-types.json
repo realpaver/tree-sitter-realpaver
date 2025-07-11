@@ -6746,6 +6746,25 @@
   {
     "type": "table_constraint",
     "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "table_vallist",
+          "named": true
+        },
+        {
+          "type": "table_varlist",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "table_vallist",
+    "named": true,
     "fields": {
       "cmp": {
         "multiple": true,
@@ -6770,20 +6789,6 @@
           {
             "type": ">=",
             "named": false
-          }
-        ]
-      },
-      "headers": {
-        "multiple": true,
-        "required": true,
-        "types": [
-          {
-            "type": ",",
-            "named": false
-          },
-          {
-            "type": "ref",
-            "named": true
           }
         ]
       },
@@ -7227,6 +7232,26 @@
           },
           {
             "type": "unary_arith_expression",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "table_varlist",
+    "named": true,
+    "fields": {
+      "headers": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "ref",
             "named": true
           }
         ]
