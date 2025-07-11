@@ -161,7 +161,7 @@ module.exports = grammar({
     conditional_constraint: ($) =>
       //field("conditional_expression", $._imply_expression),
       seq(
-        field("guard", $._expression),
+        field("guard", $.expression),
         "->",
         field("body", $._constraint_definition),
       ),
@@ -194,7 +194,7 @@ module.exports = grammar({
         $._arith_expression,
         $._set_expression,
         $._comparison_expression,
-        $._imply_expression,
+        // $._imply_expression,
         $.paren_expression,
       ),
 
@@ -220,20 +220,20 @@ module.exports = grammar({
         ),
       ),
 
-    _imply_expression: ($) =>
-      prec.left(
-        "imply",
-        seq(
-          field(
-            "condition",
-            $._expression,
-            // choice($._comparison_expression, $._in_expression),
-          ),
-          "->",
-          // field("constraint", $.constraint_definition),
-          field("constraint", $._expression),
-        ),
-      ),
+    // _imply_expression: ($) =>
+    //   prec.left(
+    //     "imply",
+    //     seq(
+    //       field(
+    //         "condition",
+    //         $._expression,
+    //         // choice($._comparison_expression, $._in_expression),
+    //       ),
+    //       "->",
+    //       // field("constraint", $.constraint_definition),
+    //       field("constraint", $._expression),
+    //     ),
+    //   ),
 
     _arith_expression: ($) =>
       choice(

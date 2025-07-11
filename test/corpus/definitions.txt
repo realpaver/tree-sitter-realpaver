@@ -86,7 +86,8 @@ Aliases
 Arith Constraints
 ===
 Constraints
-    x+y == z;
+    x+y == z,
+    x <= 3;
 ---
 (source_file
     (arith_constraint
@@ -94,9 +95,16 @@ Constraints
             (ref
                 (identifier))
             (ref
-                (identifier)))
+                (identifier))
+        )
         (ref
-            (identifier))))
+            (identifier)))
+    (arith_constraint
+        (ref
+            (identifier))
+        (integer)
+    )
+)
 
 ===
 Conditional Constraints
@@ -107,20 +115,24 @@ Constraints
 ---
 (source_file
     (conditional_constraint
-        (ref
-            (identifier))
-        (interval_value
-            (integer)
-            (integer))
+        (expression
+            (ref
+                (identifier))
+            (interval_value
+                (integer)
+                (integer))
+            )
         (arith_constraint
           (ref
             (identifier))
           (ref
             (identifier))))
     (conditional_constraint
-        (ref
-            (identifier))
-        (integer)
+        (expression
+            (ref
+                (identifier))
+            (integer)
+        )
         (arith_constraint
             (sub_expression
                 (ref
@@ -201,7 +213,8 @@ Constraints
 Functions
 ===
 Functions
-    dist(x1,y1,x2,y2) = sqrt((x1-x2)^2+(y1-y2)^2);
+    dist(x1,y1,x2,y2) = sqrt((x1-x2)^2+(y1-y2)^2),
+    sindist(x1,y1,x2,y2) = sin(dist(x1,y1,x2,y2));
 
 ---
 (source_file
@@ -235,14 +248,47 @@ Functions
                                     (identifier))
                         ))
                         (integer))))))
+
+    (function_definition
+        (identifier)
+        (parameter_list
+            (identifier)
+            (identifier)
+            (identifier)
+            (identifier))
+        (expression
+            (call_expression
+                (call_expression
+                    (ref
+                        (identifier))
+                    (ref
+                        (identifier))
+                    (ref
+                        (identifier))
+                    (ref
+                        (identifier))
+                    (ref
+                        (identifier))
+                )
+            )
+        )
+    )
 )
 
 ===
 Objective with variable
 ===
+    Variables
+        x in [0,1];
     Min z = x^2;
 ---
 (source_file
+    (variable_definition
+        (identifier)
+        (domain
+            (interval_value
+                (integer)
+                (integer))))
     (objective_definition
         (identifier)
         (exponent_expression

@@ -21,178 +21,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "left": {
         "multiple": true,
         "required": true,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -271,10 +103,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -368,10 +196,6 @@
         "required": true,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -449,10 +273,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -561,178 +381,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "expression": {
         "multiple": true,
         "required": true,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -812,10 +464,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -893,10 +541,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -996,10 +640,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -1077,10 +717,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -1179,178 +815,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "expression": {
         "multiple": true,
         "required": true,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -1430,10 +898,6 @@
         "required": true,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -1511,10 +975,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -1604,10 +1064,6 @@
         "required": true,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -1685,10 +1141,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -1786,10 +1238,6 @@
             "named": false
           },
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -1878,170 +1326,6 @@
           {
             "type": ">=",
             "named": false
-          }
-        ]
-      },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
           }
         ]
       },
@@ -2144,10 +1428,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -2225,10 +1505,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -2318,10 +1594,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -2399,10 +1671,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -2505,604 +1773,12 @@
           }
         ]
       },
-      "cmp": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          }
-        ]
-      },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "guard": {
-        "multiple": true,
+        "multiple": false,
         "required": true,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "left": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "left_operand": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "operator": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "in",
-            "named": false
-          }
-        ]
-      },
-      "right": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "right_operand": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
+            "type": "expression",
             "named": true
           }
         ]
@@ -3193,178 +1869,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "left": {
         "multiple": true,
         "required": true,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -3443,10 +1951,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -3540,10 +2044,6 @@
         "required": true,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -3621,10 +2121,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -3743,178 +2239,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "left": {
         "multiple": true,
         "required": true,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -3993,10 +2321,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -4090,10 +2414,6 @@
         "required": true,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -4171,10 +2491,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -4273,178 +2589,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "left": {
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -4523,10 +2671,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -4616,10 +2760,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -4697,10 +2837,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -4897,178 +3033,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "left": {
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -5148,10 +3116,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -5229,10 +3193,6 @@
         "multiple": true,
         "required": true,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -5322,10 +3282,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -5404,10 +3360,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -5485,10 +3437,6 @@
         "multiple": true,
         "required": true,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -5587,178 +3535,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "left": {
         "multiple": true,
         "required": true,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -5837,10 +3617,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -5934,10 +3710,6 @@
         "required": true,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -6015,10 +3787,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -6117,178 +3885,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "expression": {
         "multiple": true,
         "required": true,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -6368,10 +3968,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -6449,10 +4045,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -6582,10 +4174,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -6663,10 +4251,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -6785,178 +4369,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "left": {
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -7035,10 +4451,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -7128,10 +4540,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -7209,10 +4617,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -7471,178 +4875,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "left": {
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -7721,10 +4957,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -7814,10 +5046,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -7895,10 +5123,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -7979,10 +5203,6 @@
         "types": [
           {
             "type": ",",
-            "named": false
-          },
-          {
-            "type": "->",
             "named": false
           },
           {
@@ -8131,178 +5351,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "left": {
         "multiple": true,
         "required": true,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -8381,10 +5433,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -8478,10 +5526,6 @@
         "required": true,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -8559,10 +5603,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -8661,170 +5701,6 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "headers": {
         "multiple": true,
         "required": true,
@@ -8843,10 +5719,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -8925,10 +5797,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -9018,10 +5886,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -9099,10 +5963,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -9183,10 +6043,6 @@
         "types": [
           {
             "type": ",",
-            "named": false
-          },
-          {
-            "type": "->",
             "named": false
           },
           {
@@ -9311,178 +6167,10 @@
           }
         ]
       },
-      "condition": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
-      "constraint": {
-        "multiple": true,
-        "required": false,
-        "types": [
-          {
-            "type": "->",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": "add_expression",
-            "named": true
-          },
-          {
-            "type": "call_expression",
-            "named": true
-          },
-          {
-            "type": "constant",
-            "named": true
-          },
-          {
-            "type": "div_expression",
-            "named": true
-          },
-          {
-            "type": "exponent_expression",
-            "named": true
-          },
-          {
-            "type": "float",
-            "named": true
-          },
-          {
-            "type": "in",
-            "named": false
-          },
-          {
-            "type": "integer",
-            "named": true
-          },
-          {
-            "type": "interval_value",
-            "named": true
-          },
-          {
-            "type": "mul_expression",
-            "named": true
-          },
-          {
-            "type": "paren_expression",
-            "named": true
-          },
-          {
-            "type": "ref",
-            "named": true
-          },
-          {
-            "type": "set_value",
-            "named": true
-          },
-          {
-            "type": "sub_expression",
-            "named": true
-          },
-          {
-            "type": "unary_arith_expression",
-            "named": true
-          }
-        ]
-      },
       "left": {
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -9562,10 +6250,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -9643,10 +6327,6 @@
         "multiple": true,
         "required": true,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
@@ -9744,10 +6424,6 @@
         "required": false,
         "types": [
           {
-            "type": "->",
-            "named": false
-          },
-          {
             "type": "<=",
             "named": false
           },
@@ -9825,10 +6501,6 @@
         "multiple": true,
         "required": false,
         "types": [
-          {
-            "type": "->",
-            "named": false
-          },
           {
             "type": "<=",
             "named": false
