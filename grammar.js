@@ -203,7 +203,7 @@ module.exports = grammar({
         "comparison",
         seq(
           field("left", $._expression),
-          field("cmp", choice("==", "<=", ">=")),
+          field("cmp", choice("==", "<=", ">=", "<", ">")),
           field("right", $._expression),
         ),
       ),

@@ -110,7 +110,7 @@ Constraints
 Conditional Constraints
 ===
 Constraints
-    z in [2,10] -> x>=y,
+    z in [-2,10] -> x>=y,
     z >= 2 -> x-1>=y;
 ---
 (source_file
@@ -119,14 +119,17 @@ Constraints
             (ref
                 (identifier))
             (interval_value
-                (integer)
+                (unary_arith_expression
+                    (integer))
                 (integer))
-            )
+        )
         (arith_constraint
           (ref
             (identifier))
           (ref
-            (identifier))))
+            (identifier))
+        )
+    )
     (conditional_constraint
         (expression
             (ref
