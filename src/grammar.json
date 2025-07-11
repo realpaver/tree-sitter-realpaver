@@ -609,6 +609,10 @@
         },
         {
           "type": "SYMBOL",
+          "name": "set_constraint"
+        },
+        {
+          "type": "SYMBOL",
           "name": "table_constraint"
         },
         {
@@ -627,6 +631,14 @@
       "content": {
         "type": "SYMBOL",
         "name": "_comparison_expression"
+      }
+    },
+    "set_constraint": {
+      "type": "FIELD",
+      "name": "expression",
+      "content": {
+        "type": "SYMBOL",
+        "name": "_set_expression"
       }
     },
     "table_constraint": {

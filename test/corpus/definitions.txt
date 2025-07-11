@@ -106,6 +106,34 @@ Constraints
     )
 )
 
+
+===
+Set Constraints
+===
+Constraints
+    x in [0,20],
+    x in [-Inf,inf];
+---
+(source_file
+    (set_constraint
+        (ref
+            (identifier))
+        (interval_value
+            (integer)
+            (integer)
+        )
+    )
+    (set_constraint
+        (ref
+            (identifier))
+        (interval_value
+            (unary_arith_expression
+                (constant))
+            (constant)
+        )
+    )
+)
+
 ===
 Conditional Constraints
 ===

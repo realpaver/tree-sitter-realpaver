@@ -135,12 +135,14 @@ module.exports = grammar({
     _constraint_definition: ($) =>
       choice(
         $.arith_constraint,
+        $.set_constraint,
         $.table_constraint,
         $.conditional_constraint,
         $.piecewise_constraint,
       ),
 
     arith_constraint: ($) => field("expression", $._comparison_expression),
+    set_constraint: ($) => field("expression", $._set_expression),
 
     table_constraint: (
       $, // field("table", $._table_expression),
