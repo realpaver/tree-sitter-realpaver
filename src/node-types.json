@@ -1966,7 +1966,23 @@
         "required": true,
         "types": [
           {
-            "type": "expression",
+            "type": "arith_constraint",
+            "named": true
+          },
+          {
+            "type": "conditional_constraint",
+            "named": true
+          },
+          {
+            "type": "piecewise_constraint",
+            "named": true
+          },
+          {
+            "type": "set_constraint",
+            "named": true
+          },
+          {
+            "type": "table_constraint",
             "named": true
           }
         ]

@@ -159,7 +159,7 @@ Constraints
 ---
 (source_file
     (conditional_constraint
-        (expression
+        (set_constraint
             (ref
                 (identifier))
             (interval_value
@@ -175,7 +175,7 @@ Constraints
         )
     )
     (conditional_constraint
-        (expression
+        (arith_constraint
             (ref
                 (identifier))
             (integer)

@@ -155,10 +155,12 @@ module.exports = grammar({
 
     conditional_constraint: ($) =>
       //field("conditional_expression", $._imply_expression),
-      seq(
-        field("guard", $.expression),
-        "->",
-        field("body", $._constraint_definition),
+      prec.left(
+        seq(
+          field("guard", $._constraint_definition),
+          "->",
+          field("body", $._constraint_definition),
+        ),
       ),
 
     piecewise_constraint: ($) =>
@@ -180,8 +182,8 @@ module.exports = grammar({
     _expression: ($) =>
       choice(
         $._arith_expression,
-        $._set_expression,
-        $._comparison_expression,
+        // $._set_expression,
+        // $._comparison_expression,
         // $._imply_expression,
         $.paren_expression,
       ),
